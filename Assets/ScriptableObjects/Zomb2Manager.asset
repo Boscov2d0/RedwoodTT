@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26be71e43cb5bb449abb5f1ace3e685, type: 3}
+  m_Name: Zomb2Manager
+  m_EditorClassIdentifier: 
+  <Controller>k__BackingField: {fileID: 22100000, guid: f60767ef695f4474182e887d30b72c80, type: 2}
+  <MoveSpeed>k__BackingField: 6
+  <AnimSpeed>k__BackingField: 2
+  <HP>k__BackingField: 50
+  <AttackRange>k__BackingField: 0.5
+  <MinCountBullet>k__BackingField: 3
+  <MaxCountBullet>k__BackingField: 5
+  <SpawnItem>k__BackingField: {fileID: 543612120222207279, guid: 6dbaa4e796223ad45b94863f369cdf62, type: 3}
