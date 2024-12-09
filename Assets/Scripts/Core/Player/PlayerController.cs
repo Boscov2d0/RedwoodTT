@@ -12,12 +12,6 @@ public class PlayerController : MonoBehaviour
     private PlayerFireController _fireController;
     private PlayerAnimatorController _animatorController;
 
-    //public float GetDirection()
-    //{
-    //    float direction = _playerManager.Horizontal.Value >= 0 ? 1 : -1;
-    //    return direction;
-    //}
-
     private void Start()
     {
         _moveController = new PlayerMoveController(_playerManager, _rigidbody, _body);

@@ -10,7 +10,7 @@ public class PlayerManager : ScriptableObject
     [field: SerializeField] public float MoveSpeed { get; private set; }
     [field: SerializeField] public float ReloadTime { get; private set; }
     [field: SerializeField] public BulletController BulletPrefab { get; private set; }
-
+    
     public Action FireAction;
     public Action ShootAction;
 }

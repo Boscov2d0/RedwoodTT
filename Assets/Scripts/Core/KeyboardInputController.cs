@@ -13,8 +13,8 @@ public class KeyboardInputController : ObjectsDisposer
     {
         _playerManager.Horizontal.Value = Input.GetAxis("Horizontal");
 
-        if (Input.GetMouseButtonDown(0))
-            _playerManager.FireAction?.Invoke();
-        _playerManager.IsFire.Value = Input.GetMouseButton(1);
+        //if (Input.GetMouseButtonDown(0))
+            //_playerManager.FireAction?.Invoke();
+        _playerManager.IsFire.Value = Input.GetMouseButton(0);
     }
 }

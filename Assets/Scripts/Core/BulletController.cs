@@ -7,6 +7,7 @@ public class BulletController : MonoBehaviour
     [SerializeField] private float _damage;
     [SerializeField] private float _speed;
     [SerializeField] private float _lifeTime;
+    [SerializeField] private AudioSource _fireSound;
 
     private RaycastHit2D _hit;
     private float _direction;
@@ -22,6 +23,7 @@ public class BulletController : MonoBehaviour
         _timer = _lifeTime;
         _isActive = true;
         gameObject.SetActive(_isActive);
+        _fireSound.Play();
     }
     private void FixedUpdate()
     {
